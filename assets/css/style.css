@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Indie Flower'; ;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #21ade9;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container h1{
+   font-size: 66px;
+}
+
+#resultado{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+#resultado img {
+    width: 10%;
+}
+
+#opciones-btn{
+    display: flex;
+  justify-content: center;
+    width: 100%;
+}
+#opciones-btn>button>img {
+width: 40%;
+}
